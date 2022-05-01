@@ -1,0 +1,169 @@
+/* Body CSS proprities (background) */
+body {
+    background-image: linear-gradient(90deg, rgba(21, 148, 16, 0.701), rgb(28, 175, 65));
+    background-position-x: 0px;
+    background-position-y: 500px;
+    background-repeat: repeat;
+}
+
+.index {
+    background-image: url(./img/backgroundbottom.png), linear-gradient(90deg, rgba(21, 148, 16, 0.701), rgb(28, 175, 65));
+    background-position-x: 5px, 0px;
+    background-position-y: 720px, 500px;
+    background-repeat: no-repeat, repeat;
+}
+
+/* Text CSS proprities */
+h1 {
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 90px;
+}
+
+.back {
+    position: absolute;
+    top: 5px;
+    left: 55px;
+    font-size: 25px;
+    border-left: 3px solid black;
+    padding: 2px;
+}
+
+.indexText {
+    position: absolute;
+    top: 20px;
+    left: 890px;
+    font-size:25px;
+}
+
+.eatingpage, .wholesomepage, .swimmingpage, .sleepingpage {
+    position: absolute;
+    top: 20px;
+    font-size: 25px;
+    border: 5px solid black;
+    padding: 2px;
+}
+.eatingpage {
+    left: 150px;
+}
+.wholesomepage {
+    left: 560px;
+}
+.swimmingpage {
+    left: 1170px;
+}
+.sleepingpage {
+    left: 1600px;
+}
+
+/* Images CSS proprities */
+
+img {
+    position: relative;
+    width: 820px;
+    height: 440px;
+    border: 5px double black;
+    padding: 1px;
+} 
+.randomImage {
+    display: block;
+    position: relative;
+    top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.indexGif {
+    display: block;
+    position: relative;
+    bottom: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height:100px;
+}
+
+.sleepingotter1 {
+    top: 90px;
+    right: 50px;
+    float:right;
+}
+.sleepingotter2 {
+    top: 90px;
+    left: 50px;
+    float:left;
+}
+.sleepingotter3 {
+    top: 160px;
+    right: 50px;
+    float: right;
+}
+.sleepingotter4 {
+    top: 160px;
+    left: 50px;
+    float: left;
+}
+
+.eatingotter1 {
+    top: 90px;
+    right: 50px;
+    float:right;
+}
+.eatingotter2 {
+    top: 90px;
+    left: 50px;
+    float:left;
+}
+.eatingotter3 {
+    top: 160px;
+    right: 50px;
+    float: right;
+}
+.eatingotter4 {
+    top: 160px;
+    left: 50px;
+    float: left;
+}
+
+.swimmingotter1 {
+    top: 90px;
+    right: 50px;
+    float:right;
+}
+.swimmingotter2 {
+    top: 90px;
+    left: 50px;
+    float:left;
+}
+.swimmingotter3 {
+    top: 160px;
+    right: 50px;
+    float: right;
+}
+.swimmingotter4 {
+    top: 160px;
+    left: 50px;
+    float: left;
+}
+
+.wholesomeotter1 {
+    top: 90px;
+    right: 50px;
+    float:right;
+}
+.wholesomeotter2 {
+    top: 90px;
+    left: 50px;
+    float:left;
+}
+.wholesomeotter3 {
+    top: 160px;
+    right: 50px;
+    float: right;
+}
+.wholesomeotter4 {
+    top: 160px;
+    left: 50px;
+    float: left;
+}

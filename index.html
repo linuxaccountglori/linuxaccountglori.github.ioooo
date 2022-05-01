@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+        <script type="text/javascript">
+            ImageArray = new Array();
+            ImageArray[0] = 'img//wholesome/wholesomeotter1.jpg';
+            ImageArray[1] = 'img//wholesome/wholesomeotter2.jpg';
+            ImageArray[2] = 'img//wholesome/wholesomeotter3.jpg';
+            ImageArray[3] = 'img//wholesome/wholesomeotter4.jpg';
+            ImageArray[4] = 'img//eating/eatingotter1.jpg';
+            ImageArray[5] = 'img//eating/eatingotter2.jpg';
+            ImageArray[6] = 'img//eating/eatingotter3.jpg';
+            ImageArray[7] = 'img//eating/eatingotter4.jpg';
+            ImageArray[8] = 'img//sleeping/sleepotter1.jpg';
+            ImageArray[9] = 'img//sleeping/sleepotter2.jpg';
+            ImageArray[10] = 'img//sleeping/sleepotter3.jpg';
+            ImageArray[11] = 'img//sleeping/sleepotter4.jpg';
+            ImageArray[12] = 'img//swimming/swimmingotter1.jpg';
+            ImageArray[13] = 'img//swimming/swimmingotter2.jpg';
+            ImageArray[14] = 'img//swimming/swimmingotter3.jpg';
+            ImageArray[15] = 'img//swimming/swimmingotter4.jpg';
+
+            function pickRandomImage() {
+                var num = Math.floor(Math.random() * 16);
+                var img = ImageArray[num];
+                document.getElementById("randImage").innerHTML = ('<img src="' + img + '" class="randomImage">')
+            }
+        </script>
+
+        <title>Otter pictures</title>
+    </head>
+    <body onload="pickRandomImage()" class="index">
+        <div id="randImage"></div>
+        <img src="./img/gif/otterswimgif.gif" alt="o vidra innotand" class="indexGif">
+        <p class="indexText">Otter pictures</p>
+        <a href="subpages/wholesome.html" title="Da click!">
+            <p class="wholesomepage">Wholesome otters</p>
+        </a>
+
+        <a href="subpages/eating.html" title="Da click!">
+            <p class="eatingpage">Eating otters</p>
+        </a>
+
+        <a href="subpages/swimming.html" title="Da click!">
+            <p class="swimmingpage">Swimming otters</p>
+        </a>
+
+        <a href="subpages/sleep.html" title="Da click!">
+            <p class="sleepingpage">Sleeping otters</p>
+        </a>
+    </body>
+</html>
